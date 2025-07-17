@@ -16,7 +16,7 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:,.2f} milhões'
 # Configurações do Streamlit
 
-st.title("DASHBOARD DE VENDAS :shopping_trolley:")
+st.title("DASHBOARD DE VENDAS 🛒")
 
 url = 'https://labdados.com/produtos'
 regioes = ['Brasil', 'Centro-Oeste', 'Nordeste', 'Norte', 'Sudeste', 'Sul']
